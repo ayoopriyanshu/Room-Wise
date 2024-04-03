@@ -1,3 +1,20 @@
+## Deploy on Chrome
+
+To deploy this app on your browser first change the pwd to backend and run this command in the terminal:
+
+```bash
+  npm run dev
+```
+This will connect a localhost:3333 with the mongodb database and nodejs.
+
+Then change the pwd to frontend and run this command in the terminal:
+
+```bash
+  npm run dev
+```
+This will start a localhost server at 5173 on your browser, you are all good to go now.
+
+
 
 ## Screenshots 
 
