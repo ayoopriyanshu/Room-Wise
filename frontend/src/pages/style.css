@@ -84,8 +84,8 @@ body{
 
 #room-names{
     display: flex;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 140px;
+    margin-right: 140px;
     justify-content: space-between;
 }
 
