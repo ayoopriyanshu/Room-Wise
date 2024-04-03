@@ -43,7 +43,7 @@ const Home = () => {
                     </button>
                 </div>
                 <div id='room-names'>
-                    <h4 id='sec-head'>TIER A</h4><h4 id='sec-head'>TIER B</h4><h4 id='sec-head'>TIER C</h4>
+                    <h4 id='sec-head'>TIER A- Rs100/hr</h4><h4 id='sec-head'>TIER B- Rs80/hr</h4><h4 id='sec-head'>TIER C- Rs30/hr</h4>
                 </div>
 
             </div>
