@@ -1,0 +1,234 @@
+body{
+    background-color: rgb(110, 110, 110);
+    font-family:  FreeMono, monospace;
+}
+
+#nav-bar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dropdown-content{
+    display: grid;
+}
+
+#menu-btns{
+    background-color: rgb(0, 26, 255);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 160px;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+#head{
+    font-style: italic;
+    color: green;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#menu{
+    font-style: italic;
+    color: green;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#rooms-list{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(182, 182, 182, 0.904);
+}
+
+#sec-head{
+    padding: 0px;
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(0, 26, 255);
+}
+
+#img-container{
+    display: flex;
+    padding: 12px;
+    padding-top: 50px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left-room, #center-room, #right-room{
+    width: 800px;
+    height: 250px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#left-room img, #center-room img, #right-room img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.685);
+    transition: transform 0.3s ease;
+}
+
+#left-room:hover img, #center-room:hover img, #right-room:hover img{
+    transform: scale(1.3);
+}
+
+#room-names{
+    display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content: space-between;
+}
+
+#btns{
+    text-align: right;
+    margin: 20px;
+}
+
+#btn{
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: green;
+    font-style: italic;
+}
+
+
+
+
+
+/*booked page*/
+
+#booked-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+
+}
+
+#booked-head{
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: green;
+    font-style: italic;
+}
+
+#back-button{
+    margin: 20px;
+    font-size: 30px;
+}
+
+#table{
+    background-color: rgb(0, 26, 255);;
+    margin: 30px;
+    margin-top: 50px;
+    width: full;
+    border-width: 10px;
+    border-color: black;
+    color: white;
+}
+
+#row{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+#row-data{
+    padding: 10px;
+    padding-left: 40px;
+}
+
+#info-block{
+    background-color: rgb(0, 26, 255);;
+    margin: 30px;
+    margin-top: 50px;
+    width: full;
+    border-width: 10px;
+    border-color: black;
+    color: white;
+}
+
+#info-type{
+    display:inline-block;
+    padding: 10px;
+}
+
+#enter-value{
+    background-color: rgb(0, 26, 255);;
+    margin: 30px;
+    margin-top: 50px;
+    width: full;
+    border-width: 10px;
+    border-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#metric{
+    padding: 10px;
+}
+
+#save-btn{
+    text-align: center;
+}
+
+#btn-save{
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: green;
+    font-style: italic;
+}
+
+#email-input{
+    width: 500px;
+}
+
+#delete-booking{
+    background-color: rgb(0, 26, 255);;
+    margin: 30px;
+    margin-top: 50px;
+    width: full;
+    border-width: 10px;
+    border-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#text-sure{
+    padding: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#yes-btn{
+    background-color: red;
+    width: 100px;
+    font-size: 15px;
+}
