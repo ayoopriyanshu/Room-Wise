@@ -25,7 +25,7 @@ export const MakeBooking = () => {
       .post('http://localhost:3333/bookings', data)
       .then(() => {
         setLoading(false);
-        navigate('/');
+        navigate('/bookings/booked');
       })
       .catch((error) => {
         setLoading(false);
@@ -46,11 +46,11 @@ export const MakeBooking = () => {
         <div id="metric">
           <label>Choose Room Type:  </label>
           <input type="radio" id="optionA" name="options" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
-          <label for="optionA">A </label>
+          <label htmlFor="optionA">A </label>
           <input type="radio" id="optionB" name="options" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
-          <label for="optionB">B </label>
+          <label htmlFor="optionB">B </label>
           <input type="radio" id="optionC" name="options" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
-          <label for="optionC">C </label>
+          <label htmlFor="optionC">C </label>
         </div>
         <div id="metric">
           <label>Check-In: </label>
