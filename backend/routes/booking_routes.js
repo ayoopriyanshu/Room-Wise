@@ -7,9 +7,9 @@ router.post('/', async (request, response) => {
     try {
         const newBooking = new Booking(request.body);
         await newBooking.save();
-        response.status(222).send(newBooking);
+        response.send(newBooking);
     } catch (error) {
-        response.status(444).send(error);
+        response.send(error);
     }
 });
 
