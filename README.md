@@ -19,8 +19,8 @@ This will start a localhost server at 5173 on your browser, you are all good to 
 ## Screenshots 
 
 ## Home:
-![Capture](https://github.com/ayoopriyanshu/Room-Wise/assets/112677512/53863ab3-fe0b-4b39-ab6b-d0d79c3546b3)
-![Capture2](https://github.com/ayoopriyanshu/Room-Wise/assets/112677512/b4b22279-7da7-46d8-a29c-c03dbf19dbf3)
+![Capture](https://github.com/ayoopriyanshu/Room-Wise/assets/112677512/4184f165-b7ad-48ea-ba04-1ba42b4d6722)
+![Capture2](https://github.com/ayoopriyanshu/Room-Wise/assets/112677512/8d748d2e-510e-43f9-962a-45d020943aaa)
 
 ## Booking Page:
 ![Capture3](https://github.com/ayoopriyanshu/Room-Wise/assets/112677512/903eac37-bac8-4f36-9587-5be558a65e7e)
