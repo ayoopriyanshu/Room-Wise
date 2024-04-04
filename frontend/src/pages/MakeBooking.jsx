@@ -44,13 +44,8 @@ export const MakeBooking = () => {
           <input type="email" value={userEmail} onChange={(e) => setEmail(e.target.value)} style={{ color: 'black' }} />
         </div>
         <div id="metric">
-          <label>Choose Room Type:  </label>
-          <input type="radio" id="optionA" name="options" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
-          <label htmlFor="optionA">A </label>
-          <input type="radio" id="optionB" name="options" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
-          <label htmlFor="optionB">B </label>
-          <input type="radio" id="optionC" name="options" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
-          <label htmlFor="optionC">C </label>
+          <label>Type Room Tier A, B or C:  </label>
+          <input type="text" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
         </div>
         <div id="metric">
           <label>Check-In: </label>
