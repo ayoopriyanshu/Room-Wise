@@ -29,7 +29,7 @@ export const EditBooking = () => {
         setLoading(false);
         console.log(error);
       })
-  })
+  }, [id]);
 
   const handleEditBooking = () => {
     const data = {
@@ -40,7 +40,7 @@ export const EditBooking = () => {
     };
     setLoading(true);
     axios
-      .put(`http://localhost:3333/bookings/${id}`, data)
+      .patch(`http://localhost:3333/bookings/${id}`, data)
       .then(() => {
         setLoading(false);
         navigate('/bookings/booked');
@@ -63,13 +63,8 @@ export const EditBooking = () => {
           <input id="email-input" type="email" value={userEmail} onChange={(e) => setEmail(e.target.value)} style={{ color: 'black' }} />
         </div>
         <div id="metric">
-          <label>Choose Room Type:  </label>
-          <input type="radio" id="optionA" name="options" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
-          <label htmlFor="optionA">A </label>
-          <input type="radio" id="optionB" name="options" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
-          <label htmlFor="optionB">B </label>
-          <input type="radio" id="optionC" name="options" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
-          <label htmlFor="optionC">C </label>
+          <label>Type Room Tier A, B or C:  </label>
+          <input type="text" value={roomType} onChange={(e) => setRoomType(e.target.value)} style={{ color: 'black' }} />
         </div>
         <div id="metric">
           <label>Check-In: </label>
