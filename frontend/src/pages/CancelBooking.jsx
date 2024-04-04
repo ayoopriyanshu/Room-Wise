@@ -16,7 +16,7 @@ const CancelBooking = () => {
       .delete(`http://localhost:3333/bookings/${id}`)
       .then((response) => {
         setLoading(false);
-        navigate('/');
+        navigate('/bookings/booked');
       })
       .catch((error) => {
         setLoading(false);
